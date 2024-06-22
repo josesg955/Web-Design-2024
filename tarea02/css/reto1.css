@@ -1,0 +1,29 @@
+.banner{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../imagenes/banner1.jpg');
+    background-color: #a0dbf2;
+    background-blend-mode: luminosity;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
+}
+
+
+.espacio{
+    padding: 120px 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.justificar{
+    text-align: justify;
+    text-indent: 0px;
+    margin: 0px;
+}
