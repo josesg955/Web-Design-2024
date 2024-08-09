@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/*variables*/
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+.banner-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  /*control altura del banner*/
+  height: 80vh;
+  background-position: center;
+  background-image: url("../imagenes/banner1.png");
+  background-color: #928372;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.banner1 {
+  background-color: #928372;
+}
+
+.espacio {
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo2 {
+  color: #928372;
+}
+
+.container-fluid2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  background-color: #928372;
+}
+
+.container2 {
+  padding-bottom: 20px;
+}
+
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+html {
+  font-size: 16px;
+}
+
+body p {
+  font-family: "Lato", sans-serif, 1rem;
+}
+
+body {
+  color: #000;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h5 {
+  padding-bottom: 20px, "Roboto", sans-serif;
+}
+
+.color1 {
+  background-color: #e88708;
+  width: 100%;
+  height: 50px;
+}
+
+i {
+  color: #fff;
+  font-size: 50px;
+}
+
+.icono1 {
+  margin-bottom: 20px;
+}
+
+.texto-cuadro {
+  vertical-align: top;
+  font-size: small;
+  display: inline-block;
+  margin-top: 15px;
+  color: #222;
+}
+
+.audio1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/************ TABLA DE PRECIOS ***************/
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.price-table {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #d6d6d6;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.price-table:hover {
+  background-color: #e2780e !important;
+  margin-top: -40px;
+  z-index: 10;
+  transition: all 0.2s ease-in;
+  border: none;
+  color: white !important;
+}
+
+/*********************  PIE DE PAGINA ******************************/
+footer {
+  color: #fff;
+  padding-top: 10px;
+  background-color: #928372;
+}
+
+.social-footer {
+  background-color: #48433D;
+}
+
+/*CHAT WHATAPP*/
+.container-botonws {
+  /*color de fondo imagen*/
+  background-color: #e4e4e4;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 1000;
+  border-radius: 50%;
+  bottom: 20px;
+  left: 25px;
+  padding: 25px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/*efecto de animación imagen chat*/
+.botonws {
+  width: 60px;
+  transition: ease 1s;
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+/*ICONO WHATAPP*/
+.whatsapp {
+  position: fixed;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 60px;
+  text-decoration: none;
+  transition: all 1s ease-in;
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 75px;
+  height: 50px;
+}
+
+/*efecto de menu-onepage*/
+.optmenu {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  transition: all 1s solid;
+}
+
+.optmenu:hover {
+  color: #ffffff;
+  background-color: #ed811c;
+  transition: all 1s solid;
+}
+
+.optmenu:active {
+  background-color: brown;
+}
+
+.drpdwn {
+  color: #e88e10;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  transition: all 1s solid;
+}
+
+.drpdwn:hover {
+  color: #fff;
+  background-color: #ed811c;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  transition: all 1s solid;
+}
+
+.drpdwn:active {
+  background-color: brown;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+.custom-toggler .navbar-toggler {
+  border: none !important;
+}
+
+.custom-toggler .navbar-toggler:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.custom-toggler .navbar-toggler:focus {
+  box-shadow: none !important;
+}/*# sourceMappingURL=index.css.map */
