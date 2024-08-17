@@ -1,0 +1,51 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width:576px){
+    .container_fluid2 {
+        font-size: 1.5rem;
+    }
+
+    .listgroupsect{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        
+    }
+
+    .container-fluid3{
+        background-image: none;
+        background-color: #fff;
+    }
+    .bg-secondary{
+        background-color: transparent;
+    }
+
+    .banner-section2 h1,p{
+        font-size: 1.5rem;
+    }
+
+    .foto {
+        clip-path: none;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto1 {
+        clip-path: none;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_fluid5{ 
+        
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .iframe1{
+        max-width: 300px;
+        align-items: center;
+    }
+}

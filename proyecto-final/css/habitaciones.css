@@ -1,0 +1,64 @@
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* clase principal de cada columna */
+
+.price-table{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+/*el margen negativo -40px es para que haga el efecto que sube el cuadro */
+
+/*el margen positivo 40px es para haga el efecto que baje el cuadro */
+
+/*el color azul es el principal de la tabla de precios*/
+
+.price-table:hover {
+    background-color: rgb(153, 149, 101)!important;
+    margin-top: -40px;
+    z-index: 10;
+    transition: all 0.2s ease-in;
+    border: none;
+    /*buscar sombras generadas
+    https://getcssscan.com/css-box-shadow-examples*/
+    /*Cuatro valores: desplazamiento de x, desplazamiento de y, nivel de desenfoque y color de la sombra.*/
+    /*box shadow: -2px 3px 7px 1px cyan;*/
+    box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+
+}
+
+/*clases de los textos titulos y numeros */
+
+.titulos{
+    vertical-align: top;
+    font-size: 17px !important;
+    display: inline-block;
+    margin-top: 15px;
+    color: #222;
+}
+
+.numeros{
+    font-size: 70px;
+    font-weight: 300;
+    color: #333c4d
+}
+
+/* al pasar el mouse en la info cambia a color blanco los textos */
+
+.price-table:hover * {
+    color: #fff;
+}
+
+.img1{
+    height: auto;
+    max-width: 50%;
+}

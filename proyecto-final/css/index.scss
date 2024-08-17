@@ -1,0 +1,309 @@
+$background-color1:rgb(185, 185, 0);
+$background-color2:rgb(153, 149, 101);
+$footer-color:rgb(10, 10, 10);
+$iconos-size:50px;
+$letra-parrafosymenu:"Lato", sans-serif;
+$letra-titulo1:"Grey Qo", cursive;
+
+html{
+    font-size: 16px;
+    background-color: black;
+}
+
+/*banner section*/
+.banner1
+{
+    background-color: $background-color2;
+}
+
+.container-fluid1{
+	padding-top: 200px;
+	padding-bottom: 200px;
+    font-family: $letra-parrafosymenu;
+}
+.container-fluid2{
+	padding-top: 120px;
+	padding-bottom: 120px;
+    background-color: $background-color2;
+}
+
+
+.container-fluid3{
+	padding-top: 120px;
+	padding-bottom: 120px;
+    background-image: url(/imagenes/imagen1.webp);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: 80vh;
+    background-position: center;
+    background-color: #928372;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.container-fluid4{
+	padding-top: 120px;
+	padding-bottom: 120px;
+    background-color: none;
+    font-family: $letra-parrafosymenu;
+}
+
+
+.banner-section{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 79.42% 90.49%, 24.24% 90.49%, 0% 100%);
+    background-color: #040e0b;
+    height:100vh;
+    border-radius: 24px;
+    text-shadow: 0 0 30px
+}
+
+.banner-section2{
+    padding-top: 20px;
+	padding-bottom: 20px;
+    background-image: url(/imagenes/imagen3.webp);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.banner-section3{
+    padding-top: 20px;
+	padding-bottom: 20px;
+    background-image: url(/imagenes/banner1.webp);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:multiply;
+    height: 80vh;
+    background-color: $background-color2;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.banner-section4{
+    padding-top: 20px;
+	padding-bottom: 20px;
+    background-image: url(/imagenes/spa.webp);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:multiply;
+    height: 80vh;
+    background-color: $background-color1;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.banner-section5{
+    padding-top: 20px;
+	padding-bottom: 20px;
+    background-image: url(/imagenes/rest1.webp);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+/*footer section*/
+footer{
+    background-color: $footer-color;
+}
+
+
+/*icon section*/
+.icono-section{
+    background-color: $footer-color;
+}
+
+.icono-section,i{
+    font-size: $iconos-size;
+    color: #fff;
+}
+
+/*font size and general font stuff*/
+a{
+    font-family:$letra-parrafosymenu
+}
+
+.container-fluid2 h1{
+    font-family: $letra-titulo1;
+    font-size: 3rem;
+}
+.container-fluid2 p{
+    font-family: $letra-parrafosymenu;
+    font-size: 1.5rem;
+}
+
+.container-fluid4 h1{
+    font-size: 4rem;
+}
+.container-fluid4 p{
+    font-family: $letra-parrafosymenu;
+    font-size: 1.5rem;
+}
+
+.container-fluid5 h5,p{
+    font-family: $letra-parrafosymenu;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+.titulohabitacion{
+    font-size: 4rem;
+    font-family: $letra-parrafosymenu;
+    background-color: $background-color1;
+}
+
+/*CHAT WHATAPP*/
+.container-botonws {
+    /*color de fondo imagen*/
+    background-color: #e4e4e4;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    left: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+  }
+  
+  .container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  /*efecto de animación imagen chat*/
+  .botonws {
+    width: 60px;
+    transition: ease 1s;
+  }
+  
+  @keyframes efecto {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+      box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+  }
+
+/*listas*/
+.lista:hover {
+    color: rgb(10, 10, 10);
+    background-color: $background-color2;
+    border-color: rgb(10, 10, 10);
+    border-width: 2px;
+}
+
+.lista{
+    font-size: 1rem;
+    font-family: $letra-parrafosymenu;
+}
+
+
+/*divisores clip-path*/
+.custom-shape-divider-bottom-1723857838 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723857838 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 109px;
+}
+
+.custom-shape-divider-bottom-1723857838 .shape-fill {
+    fill: #999565;
+}
+
+.img2{
+    height: auto;
+    max-width: 52%;
+}
+
+.foto{
+    /*xy xy xy xy ver documento adjunto del docente*/
+    clip-path: polygon(25% 0, 75% 0%, 100% 100%, 0% 100%);
+    border-radius: 25px;
+    height: 345px;
+}
+
+.foto1{
+    clip-path: polygon(50% 1.25%, 0% 17.73%, 0% 63.95%, 27.75% 98.75%, 72.25% 98.75%, 100% 63.95%, 100% 19.23%);
+    background-color: #47ebbf;
+    border-radius: 25px;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+.card-body{
+    border-radius: 5px;
+    border-style:none;
+    background-color:$background-color1;
+}
+
+.card-img-top{
+    border-radius: 5px;
+}
+
+.listgroupitemspa{
+    background-color: $background-color2;
+}
+
+.optmenu:active {
+    background-color: brown;
+  }
+
+.drpdwn:active {
+    background-color: brown;
+  }
+  
+  /* PERSONALIZACION MENU HAMBURGUESA */
+  .custom-toggler .navbar-toggler {
+    border: none !important;
+  }
+  
+  .custom-toggler .navbar-toggler:hover {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .custom-toggler .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .accordion-body p{
+    font-size: 1.2rem;
+  }
+
+  .accordion-item button{
+    font-size: 1.5rem;
+    background-color: $background-color2;
+  }
